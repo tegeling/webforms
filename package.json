@@ -1,0 +1,14 @@
+{
+  "name": "bedrock-tegeling",
+  "version": "1.0.0",
+  "description": "Bedrock CTA Demo Homepage",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tegeling@salesforce.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
