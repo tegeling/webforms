@@ -5,117 +5,13 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bedrock Financials Contact Form</title>
+    <title>Bedrock Financials Lead and Service Forms</title>
     <link rel="stylesheet" type="text/css" href="/assets/styles/salesforce-lightning-design-system.css" />    
   </head>
   <body>
     <div class="slds-grid slds-gutters slds-grid_align-center">
-        <div class="slds-col slds-size--1-of-3 slds-p-horizontal_medium">
-            <div class="slds-page-header">
-                <div class="slds-media">
-                <div class="slds-media__figure">
-                <span class="slds-icon_container slds-icon-standard-contact" title="Description of icon when needed">
-                <svg class="slds-icon slds-page-header__icon" aria-hidden="true">
-                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#contact" />
-                </svg>
-                </span>
-                </div>
-                <div class="slds-media__body">
-                <h1 class="slds-page-header__title slds-truncate slds-align-middle" title="Bedrock Financials Contact Form">Bedrock Financials Contact Form</h1>
-                </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="slds-grid slds-gutters slds-grid_align-center">
-        <div class="slds-col slds-size--1-of-3 slds-p-horizontal_medium">
-            <div class="slds-form slds-form_stacked">
-                <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
-                    <input type=hidden name="oid" value="00D0N000001OMH6">
-                    <input type=hidden name="retURL" value="https://trailhead.salesforce.com/">                    
-                    <div class="slds-form-element">
-                        <label class="slds-form-element__label" for="first_name">First Name</label>
-                        <div class="slds-form-element__control">
-                            <input type="text" id="first_name" name="first_name" class="slds-input" placeholder="Thomas" />
-                        </div>
-                    </div>
-                    <div class="slds-form-element">
-                        <label class="slds-form-element__label" for="last_name">Last Name</label>
-                        <div class="slds-form-element__control">
-                            <input type="text" id="last_name" name="last_name" class="slds-input" placeholder="Egeling" />
-                        </div>
-                    </div>
-                    <div class="slds-form-element">
-                        <label class="slds-form-element__label" for="company">Company</label>
-                        <div class="slds-form-element__control">
-                            <input type="text" id="company" name="company" class="slds-input" placeholder="Siemens" />
-                        </div>
-                    </div>
-                    <div class="slds-form-element">
-                        <label class="slds-form-element__label" for="email">Email</label>
-                        <div class="slds-form-element__control">
-                            <input type="email" id="email" name="email" class="slds-input" placeholder="tegeling@salesforce.com" />
-                        </div>
-                    </div>
-                    <div class="slds-form-element">
-                        <label class="slds-form-element__label" for="street">Street</label>
-                        <div class="slds-form-element__control">
-                            <input type="text" id="street" name="street" class="slds-input" placeholder="Alpenblickstr. 24" />
-                        </div>
-                    </div>
-                    <div class="slds-form-element">
-                        <label class="slds-form-element__label" for="zip">Postalcode</label>
-                        <div class="slds-form-element__control">
-                            <input type="text" id="zip" name="zip" class="slds-input" placeholder="83607" />
-                        </div>
-                    </div>
-                    <div class="slds-form-element">
-                        <label class="slds-form-element__label" for="city">City</label>
-                        <div class="slds-form-element__control">
-                            <input type="text" id="city" name="city" class="slds-input" placeholder="Holzkirchen" />
-                        </div>
-                    </div>
-                    <div class="slds-form-element">
-                        <label class="slds-form-element__label" for="country">Country</label>
-                        <div class="slds-form-element__control">
-                            <input type="text" id="country" name="country" class="slds-input" placeholder="DE" />
-                        </div>
-                    </div>
-                    <div class="slds-form-element">
-                        <label class="slds-form-element__label" for="00N0N00000Exdxa">Region</label>
-                        <div class="slds-form-element__control">
-                        <div class="slds-select_container">
-                        <select class="slds-select" name="00N0N00000Exdxa" id="00N0N00000Exdxa">
-                        <option value="">Please select</option>
-                        <option>AMER</option>
-                        <option>EMEA</option>
-                        </select>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="slds-form-element">
-                        <label class="slds-form-element__label" for="00N0N00000Exdk2">Product Interest</label>
-                        <div class="slds-form-element__control">
-                        <div class="slds-select_container">
-                        <select class="slds-select" name="00N0N00000Exdk2" id="00N0N00000Exdk2">
-                        <option value="">Please select</option>
-                        <option value="CLL">Commercial Lending and Leasing</option>
-                        <option value="BPC">Private Client</option>
-                        <option value="IB">Investment Banking</option>
-                        </select>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="slds-form-element">
-                        <label class="slds-form-element__label" for="00N0N00000ExfHq">Comment</label>
-                        <div class="slds-form-element__control">
-                        <textarea id="00N0N00000ExfHq" name="00N0N00000ExfHq" class="slds-textarea" placeholder="Placeholder Text"></textarea>
-                        </div>
-                    </div>
-                    <button class="slds-button slds-button_brand">Submit</button>                    
-                </form>
-            </div>                
-        </div>
+            <button class="slds-button slds-button_brand"><a href="./contact">Lead Form</a></button>
+            <button class="slds-button slds-button_brand"><a href="./support">Customer Service Form</a></button>
     </div>
   </body>
 </html>
