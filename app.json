@@ -1,0 +1,7 @@
+{
+  "name": "Node.js Webforms",
+  "description": "Web-to-Lead and Web-to-Case webforms using Lightning Design System",
+  "repository": "https://github.com/tegeling/webforms",
+  "logo": "https://c1.sfdcstatic.com/content/dam/web/en_us/www/images/home/logo-salesforce.svg",
+  "keywords": ["node", "express", "static"]
+}
